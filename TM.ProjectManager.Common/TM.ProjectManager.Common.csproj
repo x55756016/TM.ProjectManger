@@ -43,13 +43,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Content Include="PDM\肿瘤全流程管理物理模型V1.0.pdb" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="PDM\肿瘤全流程管理原型.rp" />
-    <None Include="PDM\肿瘤全流程管理物理模型V1.0.pdm" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
