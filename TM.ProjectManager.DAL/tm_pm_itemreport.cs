@@ -7,28 +7,25 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TM.ProjectManager.DAL
+using System;
+using System.Collections.Generic;
+
+public partial class tm_pm_itemreport
 {
-    using System;
-    using System.Collections.Generic;
-    
-    public partial class tm_pm_itemreport
-    {
-        public string TASKID { get; set; }
-        public string PRETASK { get; set; }
-        public Nullable<System.DateTime> SUBMITDATE { get; set; }
-        public string SUBMITPROGRESS { get; set; }
-        public string SUBMITREMARK { get; set; }
-        public string PMANAGER { get; set; }
-        public string ISCOMFIRM { get; set; }
-        public string STARTDATE { get; set; }
-        public Nullable<System.DateTime> COMFIRMDATE { get; set; }
-        public string OWENRID { get; set; }
-        public string OWNERDEPARTMENTID { get; set; }
-        public string OWNERCOMPANYID { get; set; }
-        public Nullable<System.DateTime> CREATETIME { get; set; }
-        public string CREATEUSER { get; set; }
-        public Nullable<System.DateTime> EDITTIME { get; set; }
-        public string EDITUSER { get; set; }
-    }
+    public string TASKID { get; set; }
+    public string PRETASK { get; set; }
+    public Nullable<System.DateTime> SUBMITDATE { get; set; }
+    public string SUBMITPROGRESS { get; set; }
+    public string SUBMITREMARK { get; set; }
+    public string PMANAGER { get; set; }
+    public string ISCOMFIRM { get; set; }
+    public string STARTDATE { get; set; }
+    public Nullable<System.DateTime> COMFIRMDATE { get; set; }
+    public string OWENRID { get; set; }
+    public string OWNERDEPARTMENTID { get; set; }
+    public string OWNERCOMPANYID { get; set; }
+    public Nullable<System.DateTime> CREATETIME { get; set; }
+    public string CREATEUSER { get; set; }
+    public Nullable<System.DateTime> EDITTIME { get; set; }
+    public string EDITUSER { get; set; }
 }

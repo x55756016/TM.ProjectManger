@@ -7,28 +7,25 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TM.ProjectManager.DAL
+using System;
+using System.Collections.Generic;
+
+public partial class tm_pm_user
 {
-    using System;
-    using System.Collections.Generic;
-    
-    public partial class tm_pm_user
-    {
-        public string USERID { get; set; }
-        public string USERNAME { get; set; }
-        public string EMAIL { get; set; }
-        public string PHONE { get; set; }
-        public string PASSWORD { get; set; }
-        public string ISCLOSED { get; set; }
-        public string POSTID { get; set; }
-        public string OWENRID { get; set; }
-        public string OWNERDEPARTMENTID { get; set; }
-        public string OWNERCOMPANYID { get; set; }
-        public Nullable<System.DateTime> CREATETIME { get; set; }
-        public string CREATEUSER { get; set; }
-        public Nullable<System.DateTime> EDITTIME { get; set; }
-        public string EDITUSER { get; set; }
-        public string OWNERPOSTID { get; set; }
-        public Nullable<decimal> COST { get; set; }
-    }
+    public string USERID { get; set; }
+    public string USERNAME { get; set; }
+    public string EMAIL { get; set; }
+    public string PHONE { get; set; }
+    public string PASSWORD { get; set; }
+    public string ISCLOSED { get; set; }
+    public string POSTID { get; set; }
+    public string OWENRID { get; set; }
+    public string OWNERDEPARTMENTID { get; set; }
+    public string OWNERCOMPANYID { get; set; }
+    public Nullable<System.DateTime> CREATETIME { get; set; }
+    public string CREATEUSER { get; set; }
+    public Nullable<System.DateTime> EDITTIME { get; set; }
+    public string EDITUSER { get; set; }
+    public string OWNERPOSTID { get; set; }
+    public Nullable<decimal> COST { get; set; }
 }

@@ -7,49 +7,46 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TM.ProjectManager.DAL
+using System;
+using System.Collections.Generic;
+
+public partial class tm_pm_company
 {
-    using System;
-    using System.Collections.Generic;
-    
-    public partial class tm_pm_company
-    {
-        public string COMPANYID { get; set; }
-        public string COMPANYTYPE { get; set; }
-        public string COMPANRYCODE { get; set; }
-        public string ENAME { get; set; }
-        public string CNAME { get; set; }
-        public string COMPANYCATEGORY { get; set; }
-        public string CITY { get; set; }
-        public string COUNTYTYPE { get; set; }
-        public string COMPANYLEVEL { get; set; }
-        public string FATHERCOMPANYID { get; set; }
-        public string FATHERTYPE { get; set; }
-        public string FATHERID { get; set; }
-        public string ADDRESS { get; set; }
-        public string LEGALPERSON { get; set; }
-        public string LINKMAN { get; set; }
-        public string TELNUMBER { get; set; }
-        public string LEGALPERSONID { get; set; }
-        public string BUSSINESSLICENCENO { get; set; }
-        public string BUSSINESSAREA { get; set; }
-        public string ACCOUNTCODE { get; set; }
-        public string BANKID { get; set; }
-        public string EMAIL { get; set; }
-        public string ZIPCODE { get; set; }
-        public string FAXNUMBER { get; set; }
-        public string CHECKSTATE { get; set; }
-        public string EDITSTATE { get; set; }
-        public string CREATEUSERID { get; set; }
-        public Nullable<System.DateTime> CREATEDATE { get; set; }
-        public string UPDATEUSERID { get; set; }
-        public Nullable<System.DateTime> UPDATEDATE { get; set; }
-        public string CREATEPOSTID { get; set; }
-        public string CREATEDEPARTMENTID { get; set; }
-        public string CREATECOMPANYID { get; set; }
-        public string OWNERID { get; set; }
-        public string OWNERPOSTID { get; set; }
-        public string OWNERDEPARTMENTID { get; set; }
-        public string OWNERCOMPANYID { get; set; }
-    }
+    public string COMPANYID { get; set; }
+    public string COMPANYTYPE { get; set; }
+    public string COMPANRYCODE { get; set; }
+    public string ENAME { get; set; }
+    public string CNAME { get; set; }
+    public string COMPANYCATEGORY { get; set; }
+    public string CITY { get; set; }
+    public string COUNTYTYPE { get; set; }
+    public string COMPANYLEVEL { get; set; }
+    public string FATHERCOMPANYID { get; set; }
+    public string FATHERTYPE { get; set; }
+    public string FATHERID { get; set; }
+    public string ADDRESS { get; set; }
+    public string LEGALPERSON { get; set; }
+    public string LINKMAN { get; set; }
+    public string TELNUMBER { get; set; }
+    public string LEGALPERSONID { get; set; }
+    public string BUSSINESSLICENCENO { get; set; }
+    public string BUSSINESSAREA { get; set; }
+    public string ACCOUNTCODE { get; set; }
+    public string BANKID { get; set; }
+    public string EMAIL { get; set; }
+    public string ZIPCODE { get; set; }
+    public string FAXNUMBER { get; set; }
+    public string CHECKSTATE { get; set; }
+    public string EDITSTATE { get; set; }
+    public string CREATEUSERID { get; set; }
+    public Nullable<System.DateTime> CREATEDATE { get; set; }
+    public string UPDATEUSERID { get; set; }
+    public Nullable<System.DateTime> UPDATEDATE { get; set; }
+    public string CREATEPOSTID { get; set; }
+    public string CREATEDEPARTMENTID { get; set; }
+    public string CREATECOMPANYID { get; set; }
+    public string OWNERID { get; set; }
+    public string OWNERPOSTID { get; set; }
+    public string OWNERDEPARTMENTID { get; set; }
+    public string OWNERCOMPANYID { get; set; }
 }

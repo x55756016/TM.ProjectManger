@@ -7,31 +7,28 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TM.ProjectManager.DAL
+using System;
+using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
+
+public partial class tmpmEntities : DbContext
 {
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Infrastructure;
-    
-    public partial class tmpmEntities : DbContext
+    public tmpmEntities()
+        : base("name=tmpmEntities")
     {
-        public tmpmEntities()
-            : base("name=tmpmEntities")
-        {
-        }
-    
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            throw new UnintentionalCodeFirstException();
-        }
-    
-        public DbSet<tm_pm_company> tm_pm_company { get; set; }
-        public DbSet<tm_pm_department> tm_pm_department { get; set; }
-        public DbSet<tm_pm_dotask> tm_pm_dotask { get; set; }
-        public DbSet<tm_pm_itemreport> tm_pm_itemreport { get; set; }
-        public DbSet<tm_pm_post> tm_pm_post { get; set; }
-        public DbSet<tm_pm_project> tm_pm_project { get; set; }
-        public DbSet<tm_pm_task> tm_pm_task { get; set; }
-        public DbSet<tm_pm_user> tm_pm_user { get; set; }
     }
+
+    protected override void OnModelCreating(DbModelBuilder modelBuilder)
+    {
+        throw new UnintentionalCodeFirstException();
+    }
+
+    public DbSet<tm_pm_company> tm_pm_company { get; set; }
+    public DbSet<tm_pm_department> tm_pm_department { get; set; }
+    public DbSet<tm_pm_dotask> tm_pm_dotask { get; set; }
+    public DbSet<tm_pm_itemreport> tm_pm_itemreport { get; set; }
+    public DbSet<tm_pm_post> tm_pm_post { get; set; }
+    public DbSet<tm_pm_project> tm_pm_project { get; set; }
+    public DbSet<tm_pm_task> tm_pm_task { get; set; }
+    public DbSet<tm_pm_user> tm_pm_user { get; set; }
 }
